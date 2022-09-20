@@ -10,7 +10,7 @@ import com.google.android.material.button.MaterialButton;
 
 public class LoginScreenOne extends AppCompatActivity {
 
-    private MaterialButton citizenButton,ngoButton;
+    private MaterialButton citizenButton,ngoButton,emergencySosButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +19,7 @@ public class LoginScreenOne extends AppCompatActivity {
 
         citizenButton = findViewById(R.id.citizenButton);
         ngoButton = findViewById(R.id.ngoButton);
+        emergencySosButton = findViewById(R.id.emergencySosButton);
 
         citizenButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -35,5 +36,14 @@ public class LoginScreenOne extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        emergencySosButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                 Intent intent = new Intent(LoginScreenOne.this,EmergencySOS.class);
+                 startActivity(intent);
+            }
+        });
+
     }
 }
