@@ -25,7 +25,7 @@ public class EmergencySOS extends AppCompatActivity {
         sendPolice.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(EmergencySOS.this,HomeActivity.class);
+                Intent intent = new Intent(EmergencySOS.this,EmergencySOS.class);
                 startActivity(intent);
             }
         });
