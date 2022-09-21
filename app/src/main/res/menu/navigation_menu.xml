@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menuHome"
+        android:icon="@drawable/ic_home"
+        android:title="home" />
+
+    <item android:id="@+id/menuCall"
+        android:icon="@drawable/ic_call"
+        android:title="call" />
+
+    <item android:id="@+id/menuMessage"
+        android:icon="@drawable/ic_baseline_message_24"
+        android:title="sos" />
+
+    <item android:id="@+id/menuMedical"
+        android:icon="@drawable/ic_baseline_local_hospital_24"
+        android:title="medical" />
+
+    <item android:id="@+id/menuwallet"
+        android:icon="@drawable/ic_baseline_account_balance_wallet_24"
+        android:title="fund" />
+
+
+</menu>
