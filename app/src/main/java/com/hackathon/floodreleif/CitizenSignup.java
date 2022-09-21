@@ -24,7 +24,7 @@ public class CitizenSignup extends AppCompatActivity {
         signUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(CitizenSignup.this,HomeActivity.class);
+                Intent intent = new Intent(CitizenSignup.this,HomeActivity1.class);
                 startActivity(intent);
             }
         });

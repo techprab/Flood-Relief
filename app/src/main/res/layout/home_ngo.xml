@@ -7,15 +7,26 @@
     android:layout_height="match_parent">
 
 
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-150dp"
+        android:src="@drawable/flood_area"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
     <Button
         android:id="@+id/dangerButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
         android:layout_marginEnd="80dp"
-        android:layout_marginBottom="230dp"
+        android:layout_marginBottom="190dp"
         android:backgroundTint="#F36C4E"
-        android:padding="30sp"
+        android:padding="10sp"
         android:text="Danger Areas"
         android:textAllCaps="false"
         android:textColor="@color/white"
@@ -30,9 +41,9 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
         android:layout_marginEnd="80dp"
-        android:layout_marginBottom="150dp"
+        android:layout_marginBottom="110dp"
         android:backgroundTint="#F36C4E"
-        android:padding="20sp"
+        android:padding="10sp"
         android:text="Add Camp"
         android:textAllCaps="false"
         android:textColor="@color/white"
@@ -46,7 +57,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:backgroundTint="@color/white"
-        android:layout_marginTop="600dp"
+        android:layout_marginTop="670dp"
         app:itemIconSize="30dp"
         app:labelVisibilityMode="unlabeled"
         app:layout_constraintBottom_toBottomOf="parent"
